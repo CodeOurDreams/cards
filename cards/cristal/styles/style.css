@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+
+  /* Background of the page */
+  background-color:rgb(80, 18, 31);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(darkred));
+  background-image: -webkit-linear-gradient(red, darkred);
+  background-image: -moz-linear-gradient(red, darkred);
+  background-image: linear-gradient(red, darkred);
+
+  /* Default font settings */
+  font-family:"Georgia, 'Times New Roman', Times, serif";
+  font-size: 2em
+}
+
+div.content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%); 
+  -moz-transform: translate(-50%,-10%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+  
+
+h2 {
+}
+
+img.character {
+  position: absolute;
+  bottom: 00%;
+  right: 00%;
+
+}
+img.character {
+  position: absolute;
+  bottom: 00%;
+  right: 00%;
+
+}
