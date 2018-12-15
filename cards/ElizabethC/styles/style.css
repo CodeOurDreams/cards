@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+
+  /* Background of the page */
+  background-color: #01df31; 
+  background-image: -webkit-gradient(linear, left top, right bottom, form(#0cd7e7), to(#0e73ff));
+  background-image: -webkit-linear-gradient(#0cd7e7, #0e73ff);
+  background-image: -moz-linear-gradient(#0cd7e7, #0e73ff);
+  background-image: linear-gradient(#0cd7e7, #0e73ff);
+
+  /* Default font settings */
+  font-family: 'Charm', cursive;
+  font-size: 3em;
+}
+
+div.content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: rgb(238, 241, 10,5);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h5 {
+  position: absolute;
+  color: #247231;
+  top: 5%;
+  left: 15%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Fredericka the Great', cursive;
+
+}
+
+h2 {
+}
+
+img.character {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
