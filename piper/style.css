@@ -1,8 +1,9 @@
 body {
-  background: linear-gradient(#00001C, #00000C);
-  color: white;
+  background: linear-gradient(#FFE1E1, #FF9D9D);
+  color: blueviolet;
   font-family: 'Petit Formal Script', cursive;
   overflow: hidden;
+  font-weight: bold;
 }
 
 .content {
@@ -17,7 +18,7 @@ body {
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
   z-index: 0;
-  font-size: 1.5em;
+  font-size: 3.5em;
 }
 .content .title svg {
   display: block;
