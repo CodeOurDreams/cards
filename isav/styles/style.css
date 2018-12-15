@@ -1,0 +1,38 @@
+html {height:100%; 
+	overflow: hidden;
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+
+  /* Background of the page */
+background-color: #81C8C1; 
+background-image:-webkit-gradient(linear, left top, left bottom, from(#81C8C1), to(#52A8B8));
+background-image:-webkit-linear-gradient(#81C8C1, #52A8B8);
+background-image:-moz-linear-gradient(#81C8C1, #52A8B8);
+background-image:-ms-linear-gradient(#81C8C1, #52A8B8);
+  /* Default font settings */
+  font-family: 'Charm', cursive;
+  font-size: 3em;
+}
+
+div.content {
+	position: absolute;
+	text-align: center;
+	top: 37%;
+	left: 50%;
+	-webkit-transform: translate (-50%,-50%);
+	-moz-transform: transalate (-50%,-50%);
+	-ms-transform: translate (-50%, -50%);
+	transform: translate(-50%,-50%);
+}
+
+h2 {
+}
+
+img.character {
+	position: absolute;
+	top: 45%;
+	left: 70%;
+
+}
