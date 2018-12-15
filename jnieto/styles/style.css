@@ -1,0 +1,44 @@
+html { height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  background-color: cornflowerblue;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE1E1), to(#0e5ba3));
+ 
+
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+
+  /* Background of the page */
+
+  /* Default font settings */
+ font-family: 'Courgette';
+}
+
+div.content {
+  position: absolute;  
+  text-align: center;
+  top: 50%;
+  left: 50%;
+-webkit-transform: translate(-50%, -50% );
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+
+
+}
+
+h1 { font-size: 90px
+    
+}
+
+img.character {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+img.character1 {
+  position: absolute;
+  right: 70%;
+  bottom: -3%;
+}
