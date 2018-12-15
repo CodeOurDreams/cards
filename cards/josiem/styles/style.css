@@ -1,0 +1,36 @@
+html {
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+  
+  /* Background of the page */
+Background-color: rgb(255, 255, 255); 
+background-image: linear-gradient(#ffffff, rgb(231, 131, 210) );
+  /* Default font settings */
+  font-family: 'Major Mano Display', monospace;
+}
+
+div.content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 50px;
+}
+img.character {
+  position: absolute;
+  top: 40%;
+  right: 70%;
+}
