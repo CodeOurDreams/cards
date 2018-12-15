@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+  font-size: 10;
+  /* Background of the page */ 
+  background-color: rgba(243, 7, 7, 0.925);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FF0000));
+  background-image: -webkit-linear-gradient(#FFFFFF, #FF0000);
+  background-image: -moz-linear-gradient(#FFFFFF, #FF0000);
+  background-image: linear-gradient(#FFFFFF, #FF0000);
+  height: 100%;
+
+  /* Default font settings */
+}
+
+div.content {
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+}
+
+div.content {
+  position: absolute;
+  text-align: center;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: 'Allura', cursive;
+  font-size: 80px;
+}
+
+img.imagen {
+  position: absolute;
+  bottom: 50%;
+  margin-left: 70%;
+} 
+
+h2 {
+  font-family: 'Lusitana', serif;
+  font-size: 35px; 
+}
+
+h3 {
+  font-family:  'Lusitana', serif;
+font-size: 25px;
+}
