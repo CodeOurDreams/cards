@@ -4,20 +4,23 @@ html {
 }
 
 body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 
-    background-color: #FFE1E1;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE1E1), to(#FF9D9D));
-    background-image: -webkit-linear-gradient(#FFE1E1, #FF9D9D);
-    background-image: -moz-linear-gradient(#FFE1E1, #FF9D9D);
-    background-image: linear-gradient(#FFE1E1, #FF9D9D);  
+  /* Background of the page */
+  background-color: #FFE1E1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE1E1), to(#FF9D9D));
+  background-image: -webkit-linear-gradient(#FFE1E1, #FF9D9D);
+  background-image: -moz-linear-gradient(#FFE1E1, #FF9D9D);
+  background-image: linear-gradient(#FFE1E1, #FF9D9D);  
 
-    font-family: 'Major Mono Display', monospace;
-    font-size: 3em;
-    text-align: center;
+  /* Default font settings */
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  text-align: center;
 }
 
 div.content {
