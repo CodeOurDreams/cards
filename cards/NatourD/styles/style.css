@@ -1,0 +1,27 @@
+html {
+  height: 100% 
+  overflow: 
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen*/
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  /* Default font settings */
+}
+/*Background of the page*/
+div.content {
+  position: absolute; 
+Top:50%;
+Left:50%;
+-web-transform: translate(-50%,-50%);
+-moz-transform: Translate(-50%,-50%);
+-ms-tranfrom: Translate(-50%,-50%);
+Transform: Translate(-50%,-50%);
+
+
+h2 {
+}
+
+img.character {
+}

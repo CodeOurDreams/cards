@@ -1,0 +1,44 @@
+html {
+
+    height: 100%;
+    overflow: hidden;
+}
+
+body {  
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+
+  /* Background of the page */
+    background-color: #A3E2F7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C4ECFA), to(#2D9FF3));
+    background-image: -webkit-linear-gradient(#C4ECFA, #2D9FF3);
+    background-image: -moz-linear-gradient(#C4ECFA, #2D9FF3);
+    background-image: linear-gradient(#C4ECFA, #2D9FF3);
+    
+  /* Default font settings */
+    font-family: 'Domine', serif;
+    color: white;
+}
+
+div.content {
+
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+  
+    font-family: 'Satisfy', cursive;
+}
+
+img.character {
+
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
