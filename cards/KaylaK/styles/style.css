@@ -1,0 +1,18 @@
+html {
+}
+
+body {
+  /* Ensures the rendered parts of the page span 100% of the viewable screen */
+
+background-image: url("https://vignette.wikia.nocookie.net/saofanon/images/8/80/SAOF_Winter_Holiday.png/revision/latest?cb=20151123042010");
+  /* Default font settings */
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+div.content {
+}
+
+h2 {
+}
+
+img.character {
